@@ -67,8 +67,9 @@ align-items: center;
 background: #FFC58F;
 ```
 ## OUTPUT:
-![OUTPUT](<Screenshot 2023-12-27 191855.png>)
-![OUTPUT](<Screenshot 2023-12-27 191907.png>)
-![OUTPUT](<Screenshot 2023-12-27 195625.png>)
+![image](https://github.com/lakshman1206/Figma/assets/129931784/2b52dd7b-a9c5-428f-bb42-3d40694a000e)
+![image](https://github.com/lakshman1206/Figma/assets/129931784/2d18a7cd-fd4e-4489-9890-8857fb2c150e)
+![image](https://github.com/lakshman1206/Figma/assets/129931784/2281f821-6903-45e2-967f-fc6e3ff38234)
+
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
