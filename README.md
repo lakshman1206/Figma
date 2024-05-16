@@ -1,4 +1,4 @@
-# Ex09 Event Registration Web Application
+# Ex09 Ev.ent Registration Web Application
 ## Date:10/05/24
 
 ## AIM:
@@ -34,42 +34,192 @@ Figma
 
 ## CODE:
 ```
-HOME PAGE
-<div style="width: 360px; height: 640px; position: relative; background: #9EF9FF">
-  <img style="width: 258px; height: 38px; left: 52px; top: 25px; position: absolute" src="https://via.placeholder.com/258x38" />
-  <div style="width: 360px; height: 53px; left: 0px; top: 112px; position: absolute; background: #F5CFFF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset"></div>
-  <div style="left: 25px; top: 125px; position: absolute; color: #130707; font-size: 12px; font-family: Inter; font-style: italic; font-weight: 900; word-wrap: break-word">EXPERIENCE THE NEW  ERA  OF DIGITAL  INNOVATION</div>
-  <div style="left: 181px; top: 149px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 800; word-wrap: break-word">July 20 & 21 ...<br/>  </div>
-  <img style="width: 331px; height: 132px; left: 13px; top: 221px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/331x132" />
-  <div style="height: 36px; padding-top: 9px; padding-bottom: 9px; padding-left: 38px; padding-right: 44px; left: 65px; top: 430px; position: absolute; background: #F9CFD9; justify-content: flex-start; align-items: center; display: inline-flex">
-    <div style="width: 128px; height: 18px; color: black; font-size: 15px; font-family: Inter; font-style: italic; font-weight: 400; word-wrap: break-word">REGISTER  NOW...</div>
-  </div>
+<div style="width: 100%; height: 100%; position: relative; background: rgba(242.87, 116.38, 192.28, 0.63)">
+    <img style="width: 360px; height: 51px; left: 0px; top: 14px; position: absolute" src="https://via.placeholder.com/360x51" />
+    <div style="left: 36px; top: 109px; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">CORDIALLY INVITE YOU TO THE</div>
+    <div style="width: 253px; height: 38px; left: 19px; top: 139px; position: absolute; text-align: right; color: black; font-size: 16px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">DEVELOPMENT DIALOGUE ON</div>
+    <div style="left: 72px; top: 198px; position: absolute; text-align: right; color: #2517C5; font-size: 16px; font-family: Inter; font-weight: 800; word-wrap: break-word">AMRIT KAAL VIMARSH</div>
+    <div style="left: 30px; top: 297px; position: absolute; text-align: right; color: black; font-size: 16px; font-family: Inter; font-weight: 900; word-wrap: break-word">Importance of Industry - Institute</div>
+    <div style="left: 30px; top: 341px; position: absolute; text-align: right; color: black; font-size: 16px; font-family: Inter; font-weight: 900; word-wrap: break-word">Interaction for Viksit Bharat @ 2047 </div>
+    <div style="width: 337px; height: 42px; left: -18px; top: 238px; position: absolute; text-align: right; color: #D8104C; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 900; word-wrap: break-word">VIKSIT BHARAT @ 2047</div>
+    <img style="width: 292px; height: 248px; left: 37px; top: 400px; position: absolute" src="https://via.placeholder.com/292x248" />
 </div>
-background: #9EF9FF;
-<div style="width: 360px; height: 640px; background: #DFFED4; flex-direction: column; justify-content: flex-end; align-items: center; display: inline-flex">
-  <img style="width: 370px; height: 655px" src="https://via.placeholder.com/370x655" />
+
+// CORDIALLY INVITE YOU TO THE
+color: black;
+ font-size: 16px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// DEVELOPMENT DIALOGUE ON
+color: black;
+ font-size: 16px;
+ font-family: Inter;
+ font-style: italic;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// AMRIT KAAL VIMARSH
+color: #2517C5;
+ font-size: 16px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// Importance of Industry - Institute
+color: black;
+ font-size: 16px;
+ font-family: Inter;
+ font-weight: 900;
+ word-wrap: break-word
+---
+// Interaction for Viksit Bharat @ 2047 
+color: black;
+ font-size: 16px;
+ font-family: Inter;
+ font-weight: 900;
+ word-wrap: break-word
+---
+// VIKSIT BHARAT @ 2047
+color: #D8104C;
+ font-size: 24px;
+ font-family: Inter;
+ font-style: italic;
+ font-weight: 900;
+ word-wrap: break-word
+
+
+
+<div style="width: 100%; height: 100%; position: relative; background: #A883F7">
+    <img style="width: 331px; height: 50px; left: 8px; top: 15px; position: absolute" src="https://via.placeholder.com/331x50" />
+    <div style="left: 28px; top: 104px; position: absolute; color: #141010; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">ON 27th DEC</div>
+    <div style="left: 28px; top: 139px; position: absolute; color: #0525D1; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">10 AM</div>
+    <div style="width: 136px; height: 41px; left: 22px; top: 189px; position: absolute; color: #F60B19; font-size: 36px; font-family: Inter; font-weight: 800; word-wrap: break-word">VENUE:<br/></div>
+    <div style="left: 23px; top: 236px; position: absolute; color: #20D3EB; font-size: 36px; font-family: Inter; font-weight: 800; word-wrap: break-word">Kurunji Hall,SMC</div>
+    <div style="left: 32px; top: 470px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-style: italic; font-weight: 200; word-wrap: break-word">Let’s create a</div>
+    <div style="width: 317px; height: 115px; left: 32px; top: 546px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-style: italic; font-weight: 500; word-wrap: break-word">THRIVING AND SUSTAINABLE ECONOMY</div>
+    <div style="width: 249px; height: 24px; left: 32px; top: 347px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 900; word-wrap: break-word">ideasfor ViksitBharat</div>
 </div>
-display: inline-flex;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-<div style="width: 348px; height: 659px; position: relative; background: #FFC58F">
-  <img style="width: 319px; height: 189px; left: 10px; top: 53px; position: absolute" src="https://via.placeholder.com/319x189" />
-  <div style="width: 137px; height: 26px; left: 101px; top: 272px; position: absolute; background: #D9D9D9"></div>
-  <div style="left: 108px; top: 278px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-style: italic; font-weight: 200; word-wrap: break-word">Registeration  details</div>
-  <div style="width: 90px; height: 17px; left: 27px; top: 348px; position: absolute; background: #D9D9D9"></div>
-  <div style="left: 37px; top: 352px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">NAME           :</div>
-  <div style="width: 90px; height: 19px; left: 27px; top: 375px; position: absolute; background: #D9D9D9"></div>
-  <div style="left: 36px; top: 379px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">PH NUMBER:</div>
-  <div style="width: 76px; height: 18px; left: 32px; top: 414px; position: absolute; background: #D9D9D9"></div>
-  <div style="left: 42px; top: 420px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">EMAIL  ID :</div>
+
+// ON 27th DEC
+color: #141010;
+ font-size: 36px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 10 AM
+color: #0525D1;
+ font-size: 36px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// VENUE:<br/>
+color: #F60B19;
+ font-size: 36px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// Kurunji Hall,SMC
+color: #20D3EB;
+ font-size: 36px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// Let’s create a
+color: white;
+ font-size: 36px;
+ font-family: Inter;
+ font-style: italic;
+ font-weight: 200;
+ word-wrap: break-word
+---
+// THRIVING AND SUSTAINABLE ECONOMY
+color: black;
+ font-size: 36px;
+ font-family: Inter;
+ font-style: italic;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// ideasfor ViksitBharat
+color: black;
+ font-size: 36px;
+ font-family: Inter;
+ font-weight: 900;
+ word-wrap: break-word
+
+
+<div style="width: 100%; height: 100%; position: relative; background: #7DEDF5">
+    <div style="width: 224px; height: 27px; left: 56px; top: 356px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">FOR REGISTRATION:<br/></div>
+    <div style="left: 31px; top: 438px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">NAME:</div>
+    <div style="left: 31px; top: 494px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">E-MAIL:</div>
+    <div style="left: 31px; top: 550px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">DOB:</div>
+    <div style="left: 31px; top: 606px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">ADDRESS:</div>
+    <div style="left: 31px; top: 662px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">PHONE NO:</div>
+    <img style="width: 330px; height: 50px; left: 14px; top: 6px; position: absolute" src="https://via.placeholder.com/330x50" />
+    <div style="width: 220px; height: 30px; left: 47px; top: 88px; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">QR CODE:</div>
+    <img style="width: 154px; height: 148px; left: 80px; top: 132px; position: absolute" src="https://via.placeholder.com/154x148" />
 </div>
-background: #FFC58F;
+
+// FOR REGISTRATION:<br/>
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// NAME:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// E-MAIL:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// DOB:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// ADDRESS:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// PHONE NO:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// QR CODE:
+color: black;
+ font-size: 16px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+
 ```
+
 ## OUTPUT:
-![image](https://github.com/lakshman1206/Figma/assets/129931784/2b52dd7b-a9c5-428f-bb42-3d40694a000e)
-![image](https://github.com/lakshman1206/Figma/assets/129931784/2d18a7cd-fd4e-4489-9890-8857fb2c150e)
-![image](https://github.com/lakshman1206/Figma/assets/129931784/2281f821-6903-45e2-967f-fc6e3ff38234)
+![Screenshot 2023-12-28 202654](https://github.com/Praveenamanikandan/Figma/assets/144870776/0056dfd3-159d-43e0-a3ab-bf8924c03121)
+
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
